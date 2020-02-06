@@ -25,7 +25,8 @@ public class AdminLogin {
 	  driver.manage().deleteAllCookies();
 	  driver.manage().timeouts().pageLoadTimeout(2000, TimeUnit.SECONDS);
 	  driver.manage().timeouts().implicitlyWait(2000, TimeUnit.SECONDS);
-	  
+	 String TitleName= driver.getTitle();
+	 System.out.println("The title is " +TitleName);
 	  
 	  
   }
